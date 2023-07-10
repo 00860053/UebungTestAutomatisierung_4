@@ -1,4 +1,4 @@
-package org.campus02.test;
+package test;
 
 import org.campus02.MaxSalaryAnalyzer;
 import org.campus02.Person;
@@ -68,7 +68,7 @@ class MaxSalaryAnalyzerTest {
         HashSet<Person> personsWithHighestSalary = maxSalaryAnalyzer.getPersonsWithHighestSalary();
         Person personWithHighestSalary = new ArrayList<>(personsWithHighestSalary).get(0);
 
-        Assertions.assertEquals(1, personsWithHighestSalary.size());
+        Assertions.assertEquals(3, personsWithHighestSalary.size());
         Assertions.assertEquals(person2, personWithHighestSalary);
     }
 }

@@ -1,4 +1,4 @@
-package org.campus02.test;
+package test;
 
 import org.campus02.Person;
 import org.junit.jupiter.api.Assertions;

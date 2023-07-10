@@ -1,8 +1,8 @@
-package org.campus02.test;
+package test;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 
 class BMIAnalyzerTest {
 
